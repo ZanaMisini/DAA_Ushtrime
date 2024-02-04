@@ -1,6 +1,6 @@
-package detyra;
+package permbledhje_detyrash__afate;
 
-public class detyra1 {
+public class pattern132 {
     public static void main(String[] zanamaemira){
         int[] array = {1, 2, 5, 1, 5, 4};
         String output = detyra(array);
@@ -33,7 +33,7 @@ public class detyra1 {
         return "Nuk ekziston 132 modeli ne kete varg";
     }
 
-    //nqs numrat i<j<k duhet te jene te njepasnjeshem
+    //nqs numrat i<j<k dhe duhet te jene te njepasnjeshem
     public static String detyra1_1(int[] array){
         System.out.println("\n");
         System.out.println("!!!!!!!USING SECOND ALGORITHM!!!!!!!!!!!!!!!");
