@@ -7,7 +7,6 @@
     <list default="true" id="f51da7a2-fe0c-45ea-b2dd-9d09b9c15eeb" name="Changes" comment="first commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DAA_Ushtrime/src/detyra/detyra1.java" beforeDir="false" afterPath="$PROJECT_DIR$/DAA_Ushtrime/src/detyra/detyra1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/detyra/detyra1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/permbledhje_detyrash__afate/pattern132.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +39,33 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.HeapSort">
+  <component name="RunManager" selected="Application.Straßen">
+    <configuration name="BoyerMoore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algoritmet_pershtatjes.BoyerMoore" />
+      <module name="DAA_Ushtrime_Per_Provim" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algoritmet_pershtatjes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CoppersmithWinograd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algoritmet_polinome_matrica.CoppersmithWinograd" />
+      <module name="DAA_Ushtrime_Per_Provim" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="algoritmet_polinome_matrica.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algoritmet_sortimit.HeapSort" />
       <module name="DAA_Ushtrime_Per_Provim" />
@@ -54,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algoritmet_sortimit.InsertionSort" />
+    <configuration name="KMP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algoritmet_pershtatjes.KMP" />
       <module name="DAA_Ushtrime_Per_Provim" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algoritmet_sortimit.*" />
+          <option name="PATTERN" value="algoritmet_pershtatjes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,38 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algoritmet_sortimit.QuickSort" />
+    <configuration name="Straßen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algoritmet_polinome_matrica.Straßen" />
       <module name="DAA_Ushtrime_Per_Provim" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algoritmet_sortimit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RadixSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algoritmet_sortimit.RadixSort" />
-      <module name="DAA_Ushtrime_Per_Provim" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algoritmet_sortimit.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algoritmet_sortimit.SelectionSort" />
-      <module name="DAA_Ushtrime_Per_Provim" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algoritmet_sortimit.*" />
+          <option name="PATTERN" value="algoritmet_polinome_matrica.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Straßen" />
+        <item itemvalue="Application.CoppersmithWinograd" />
+        <item itemvalue="Application.BoyerMoore" />
+        <item itemvalue="Application.KMP" />
         <item itemvalue="Application.HeapSort" />
-        <item itemvalue="Application.SelectionSort" />
-        <item itemvalue="Application.QuickSort" />
-        <item itemvalue="Application.RadixSort" />
-        <item itemvalue="Application.InsertionSort" />
       </list>
     </recent_temporary>
   </component>
