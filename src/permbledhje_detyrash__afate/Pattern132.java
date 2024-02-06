@@ -54,7 +54,7 @@ public class Pattern132 {
         for(int i=0; i<array.length-2; i++){
             int j = i+1;
             int k = j+1;
-            while(array[i] < array[k] && array[j] > array[k]){
+            if(array[i] < array[k] && array[j] > array[k]){
                 System.out.print("The pattern was found in: ");
                 System.out.println(array[i] + " " + array[j] + " " + array[k]);
                 condition = true;

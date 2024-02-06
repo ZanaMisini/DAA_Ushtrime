@@ -3,6 +3,9 @@ package permbledhje_detyrash__afate;
 import java.util.Arrays;
 import java.util.PriorityQueue;
 
+//Detyra 13. Duke pasur parasysh një sërë intervalesh kohore takimesh që përbëhen nga orët e fillimit dhe
+//        të përfundimit [ [s1 , e1 ] , [ s2 , e2 ] ,... ] (si< ei), gjeni numrin minimal të sallave të konferencave të
+//        nevojshme.
 public class ConferenceRooms{
     public static void main(String[] zanamaemira){
             Meetings[] meetings = {
@@ -12,7 +15,7 @@ public class ConferenceRooms{
                     new Meetings(1105, 1200)
             };
 
-            int minRooms = minRoomsMinHeap(meetings);
+            int minRooms = minRooms(meetings);
             System.out.println("Minimum number of rooms needed: " + minRooms);
     }
 
