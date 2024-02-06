@@ -13,6 +13,13 @@ public class LargestSquareOfFreeFields {
                 {true, true, true, true, true},
                 {true, true, true, true, true},
                 {false, false, false, false, false}
+//                {false, false, true, false, false},
+//                {false, false, false, true, false},
+//                {true, false, false, false, false},
+//                {false, false, false, false, false},
+//                {false, false, false, false, false},
+//                {false, false, false, false, false},
+//                {true, true, true, true, true}
         };
 
         int largestSquareSize = findLargestSquare(matrix);
@@ -28,7 +35,6 @@ public class LargestSquareOfFreeFields {
         int cols = matrix[0].length;
         int[][] dp = new int[rows][cols];
         int maxSquareSize = 0;
-
         for(int i=0; i<rows; i++){
             dp[i][0] = matrix[i][0] ? 1 : 0;
             maxSquareSize = Math.max(maxSquareSize, dp[i][0]);
@@ -38,16 +44,28 @@ public class LargestSquareOfFreeFields {
             dp[0][j] = matrix[0][j] ? 1 : 0;
             maxSquareSize = Math.max(maxSquareSize, dp[0][j]);
         }
-
+        //int minSquareSize = maxSquareSize;
         for(int i=1; i<rows; i++){
             for(int j=1; j<cols; j++){
-                if(matrix[i][j]){
-                    dp[i][j] = Math.min(dp[i-1][j-1], Math.min(dp[i][j-1], dp[i-1][j])) + 1;
+                if(matrix[i][j]) {
+                    dp[i][j] = Math.min(dp[i - 1][j - 1], Math.min(dp[i][j - 1], dp[i - 1][j])) + 1;
                     maxSquareSize = Math.max(maxSquareSize, dp[i][j]);
                 }
             }
         }
-         return maxSquareSize;
+
+//        for(int i=1; i<rows; i++){
+//            for(int j=1; j<cols; j++){
+//                if(!matrix[i][j]){
+//                    dp[i][j] = Math.min(dp[i-1][j-1], Math.min(dp[i][j-1], dp[i-1][j])) + 1;
+//                    minSquareSize = Math.max(minSquareSize, dp[i][j]);
+//                }
+//            }
+//        }
+//        System.out.println("MAX: " + maxSquareSize + " MIN: " + minSquareSize);
+//        int MAX = maxSquareSize > minSquareSize ? maxSquareSize : minSquareSize;
+//         return MAX;
+        return maxSquareSize;
     }
 
 }

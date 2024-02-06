@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f51da7a2-fe0c-45ea-b2dd-9d09b9c15eeb" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/src/permbledhje_detyrash__afate/LongestIncreasingSubsequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DAA_Ushtrime/src/detyra/detyra1.java" beforeDir="false" afterPath="$PROJECT_DIR$/DAA_Ushtrime/src/detyra/detyra1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/permbledhje_detyrash__afate/pattern132.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/permbledhje_detyrash__afate/Pattern132.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/permbledhje_detyrash__afate/LargestSquareOfFreeFields.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/permbledhje_detyrash__afate/LargestSquareOfFreeFields.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/permbledhje_detyrash__afate/LongestIncreasingSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/permbledhje_detyrash__afate/LongestIncreasingSubsequence.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,13 +41,13 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LargestSquareOfFreeFields">
-    <configuration name="CoppersmithWinograd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algoritmet_polinome_matrica.CoppersmithWinograd" />
+  <component name="RunManager" selected="Application.LongestIncreasingSubsequence">
+    <configuration name="ConferenceRooms" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="permbledhje_detyrash__afate.ConferenceRooms" />
       <module name="DAA_Ushtrime_Per_Provim" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="algoritmet_polinome_matrica.*" />
+          <option name="PATTERN" value="permbledhje_detyrash__afate.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,6 +81,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MaxSubarraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="permbledhje_detyrash__afate.MaxSubarraySum" />
+      <module name="DAA_Ushtrime_Per_Provim" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="permbledhje_detyrash__afate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Pattern132" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="permbledhje_detyrash__afate.Pattern132" />
       <module name="DAA_Ushtrime_Per_Provim" />
@@ -94,26 +107,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Straßen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algoritmet_polinome_matrica.Straßen" />
-      <module name="DAA_Ushtrime_Per_Provim" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="algoritmet_polinome_matrica.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LargestSquareOfFreeFields" />
-        <item itemvalue="Application.Pattern132" />
         <item itemvalue="Application.LongestIncreasingSubsequence" />
-        <item itemvalue="Application.Straßen" />
-        <item itemvalue="Application.CoppersmithWinograd" />
+        <item itemvalue="Application.LargestSquareOfFreeFields" />
+        <item itemvalue="Application.MaxSubarraySum" />
+        <item itemvalue="Application.ConferenceRooms" />
+        <item itemvalue="Application.Pattern132" />
       </list>
     </recent_temporary>
   </component>
